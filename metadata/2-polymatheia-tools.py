@@ -12,12 +12,11 @@ DEMO_FOLDER = "./metadata/data/"
 OUTPUT_FOLDER = f"{DEMO_FOLDER}polymatheia-tools/"
 
 # Extract polymatheia files into a flat hierarchy
-orig_folder = f"{DEMO_FOLDER}sru"
+input_folder = f"{DEMO_FOLDER}sru-picaxml"
 extracted_folder = f"{DEMO_FOLDER}sru_extracted"
-PolymatheiaUtils.extract(i=orig_folder, o=extracted_folder, e="xml")
+PolymatheiaUtils.extract(i=input_folder, o=extracted_folder, e="xml")
 
 # Analyse files from a folder
-input_folder = "./metadata/demo/sru"
 field_analysis = f"{OUTPUT_FOLDER}field_analysis.json"
 PICAAnalysis(i=input_folder, o=field_analysis).start()
 

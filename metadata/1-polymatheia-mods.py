@@ -1,7 +1,7 @@
 # !/usr/bin/python
 # -*- coding: utf-8 -*-
 
-"""Docstring."""
+"""Example script for using Polymatheia and the MODS record schema."""
 
 from polymatheia.data.reader import SRUExplainRecordReader, SRURecordReader
 from polymatheia.data.writer import XMLWriter
@@ -30,10 +30,10 @@ for record in reader:
     try:
         print(record.zs_recordData["{http://www.loc.gov/mods/v3}mods"].titleInfo.title._text)
     except:
-        a = 1  # do nothing
+        pass
 
 # write files to disk using Polymatheia
-OUTPUT_PATH = "./metadata/data/sru/"
+OUTPUT_PATH = "./metadata/data/sru-mods/"
 w = XMLWriter(OUTPUT_PATH,
                ["zs_recordData", "{http://www.loc.gov/mods/v3}mods", "recordInfo", "recordIdentifier", "_text"])
 w.write(reader)
