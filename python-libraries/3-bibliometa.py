@@ -7,12 +7,12 @@ from bibliometa.graph.analysis import GraphAnalysis
 from bibliometa.graph.conversion import JSON2EdgeList
 from bibliometa.graph.similarity import Similarity
 
-PATH = "./metadata/data/bibliometa/"
+PATH = "./python-libraries/data/bibliometa/"
 
 # conversion from JSON to edge list
 j2e = JSON2EdgeList()
 
-j2e.config.i = "./metadata/data/polymatheia-tools/extracted_values/data_corpus.json"
+j2e.config.i = "./python-libraries/data/polymatheia-tools/extracted_values/data_corpus.json"
 j2e.config.o = f"{PATH}similarity.csv"
 j2e.config.create_corpus = True
 j2e.config.corpus = f"{PATH}graph_corpus.json"

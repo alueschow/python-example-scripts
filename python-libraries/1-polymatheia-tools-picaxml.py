@@ -18,8 +18,8 @@ print(total_number)
 # Show available schemas
 print(schemas(SRU_API))
 
-PATH_TO_PPN_LIST = "./metadata/demo/ppn/list.txt"
-PATH_TO_OUTPUT_FOLDER = "./metadata/data/sru-picaxml/"
+PATH_TO_PPN_LIST = "./python-libraries/demo/ppn/list.txt"
+PATH_TO_OUTPUT_FOLDER = "./python-libraries/data/sru-picaxml/"
 RECORD_SCHEMA = "picaxml"
 
 main(SRU_API, ppn=True, i=PATH_TO_PPN_LIST, o=PATH_TO_OUTPUT_FOLDER, s=RECORD_SCHEMA)

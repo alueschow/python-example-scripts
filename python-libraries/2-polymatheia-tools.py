@@ -8,7 +8,7 @@ from polymatheia_tools.extraction import ValueExtraction
 from polymatheia_tools.utils import DictUtils, PolymatheiaUtils
 from polymatheia_tools.visualization import FieldVisualization
 
-DEMO_FOLDER = "./metadata/data/"
+DEMO_FOLDER = "./python-libraries/data/"
 OUTPUT_FOLDER = f"{DEMO_FOLDER}polymatheia-tools/"
 
 # Extract polymatheia files into a flat hierarchy

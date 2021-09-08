@@ -1,4 +1,5 @@
-/venv/
-/metadata/data/
-/logs
 .idea/
+/venv/
+/logs
+/metadata-networks/faust/data/
+/python-libraries/data/
