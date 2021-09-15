@@ -1,5 +1,6 @@
 .idea/
 /venv/
 /logs
+/metadata-networks/cerl-thesaurus/data/
 /metadata-networks/faust/data/
 /python-libraries/data/
