@@ -7,3 +7,6 @@ https://gisco-services.ec.europa.eu/distribution/v2/nuts/download/ref-nuts-2021-
 and extract it to ```./data/shapefiles/ref-nuts-2021-20m.shp```. Or use other shapefiles and adjust the script accordingly.
 
 ![](./img/wittenberg.png)
+
+## Workflow
+![](./img/workflow.png)
