@@ -9,4 +9,7 @@ and extract it to ```./data/shapefiles/ref-nuts-2021-20m.shp```. Or use other sh
 ![](./img/wittenberg.png)
 
 ## Workflow
-![](./img/ct-workflow.png)
+![](./img/ct-workflow-small.png)
+
+## Workflow with scripts
+![](./img/ct-workflow-scripts-small.png)
